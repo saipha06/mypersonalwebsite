@@ -3,71 +3,141 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="jumbotron">
-          <h2>Hi, I am</h2>
-          <h1 class="text-info">[your Name here]</h1>
-          <h2><small>and I love building stuff</small></h2>
-        </div>
-      </div>
-    </div>
-  
-    <div class="row">
-      <div class="col-md-6 col-sm-6">
-        <div class="well">
-          <div class="page-header">
-            <h2 class="text-warning">Work Experience</h2>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand topnav" href="#">Thomas Vaeth</a>
           </div>
-          <content>
-            <h4>Some company</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
-          <hr />
-          <content>
-            <h4>Some company</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
-          <hr />
-          <content>
-            <h4>Some company</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
-        </div>
-      </div>
-  
-      <div class="col-md-6 col-sm-6">
-        <div class="well">
-          <div class="page-header">
-            <h2 class="text-warning">Recent Projects</h2>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
           </div>
-  
-          <content>
-            <h4>Some Project 1</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
-  
-          <hr />
-          <content>
-            <h4>Some Project 2</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
-  
-          <hr />
-          <content>
-            <h4>Some Project 3</h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam modi error consectetur, fugit hic dolores. Optio expedita accusamus odio iusto dignissimos minus animi sunt fuga. Nulla eligendi eos velit eius.
-          </content>
+        </div>
+      </nav>
+      <a name="about"></a>
+      <div class="intro-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="intro-message">
+                <h1>Thomas Vaeth</h1>
+                <h3>FreeCodeCamp Student</h3>
+                <hr class="intro-divider">
+                <ul class="list-inline intro-social-buttons">
+                  <li><a href="https://twitter.com/thomasvaeth" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a></li>
+                  <li><a href="https://github.com/thomasvaeth" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
+                  <li><a href="https://www.linkedin.com/pub/thomas-vaeth/31/66/413" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted">
-      <a href="#" class="icon" title="Instagram">
-      <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42c-.526.204-.973.478-1.417.923-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.72 1.417.923.51.198 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.852-.04 1.433-.174 1.942-.372.526-.204.973-.478 1.417-.923.445-.444.72-.89.923-1.417.198-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.417-.444-.445-.89-.72-1.417-.923-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.136 0 2.39.01 3.233.048.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.05 3.233c-.04.78-.17 1.203-.28 1.485-.15.374-.32.64-.6.92-.28.28-.55.453-.92.598-.28.11-.71.24-1.49.276-.85.038-1.1.047-3.24.047s-2.39-.01-3.24-.05c-.78-.04-1.21-.17-1.49-.28-.38-.15-.64-.32-.92-.6-.28-.28-.46-.55-.6-.92-.11-.28-.24-.71-.28-1.49-.03-.84-.04-1.1-.04-3.23s.01-2.39.04-3.24c.04-.78.17-1.21.28-1.49.14-.38.32-.64.6-.92.28-.28.54-.46.92-.6.28-.11.7-.24 1.48-.28.85-.03 1.1-.04 3.24-.04zm0 2.452c-2.27 0-4.108 1.84-4.108 4.108 0 2.27 1.84 4.108 4.108 4.108 2.27 0 4.108-1.84 4.108-4.108 0-2.27-1.84-4.108-4.108-4.108zm0 6.775c-1.473 0-2.667-1.194-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667 0 1.473-1.194 2.667-2.667 2.667zm5.23-6.937c0 .53-.43.96-.96.96s-.96-.43-.96-.96.43-.96.96-.96.96.43.96.96z"/></svg>
-      </a>
-      <a href="#" class="icon" title="Git"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M15.698 7.287L8.708.302C8.305-.1 7.652-.1 7.248.302L5.8 1.752l1.84 1.84c.43-.144.92-.047 1.26.294.344.343.44.838.292 1.267l1.774 1.773c.43-.148.925-.052 1.268.29.48.48.48 1.256 0 1.735-.48.48-1.256.48-1.735 0-.36-.36-.45-.89-.27-1.33L8.57 5.97v4.352c.117.057.227.134.325.23.475.48.475 1.255 0 1.734-.48.48-1.26.48-1.74 0s-.48-1.254 0-1.733c.12-.12.257-.21.403-.27V5.89c-.145-.06-.282-.148-.4-.267-.363-.363-.45-.895-.264-1.34l-1.81-1.816L.29 7.254c-.4.404-.4 1.056 0 1.46l6.992 6.984c.402.403 1.055.403 1.458 0l6.958-6.953c.403-.402.403-1.055 0-1.458" fill-rule="nonzero"/></svg></a>
-      <a href="#" class="icon" title="Slack"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><g fill-rule="nonzero"><path d="M6.586 7.33l.69 2.057 2.137-.716-.69-2.05-2.137.72z"/><path d="M12.55 9.37l-1.037.347.36 1.073c.145.434-.09.904-.524 1.05-.1.03-.19.045-.29.042-.34-.01-.65-.226-.77-.566l-.36-1.072-2.14.716.36 1.072c.14.435-.09.905-.53 1.05-.1.032-.19.045-.29.043-.34-.01-.65-.226-.77-.566l-.36-1.08-1.04.35c-.1.03-.19.04-.29.04-.34-.01-.65-.23-.77-.57-.15-.44.09-.91.52-1.05l1.04-.35L5 7.84l-1.034.35c-.094.032-.19.045-.285.043-.33-.01-.65-.225-.76-.565-.14-.433.09-.903.53-1.05l1.04-.346-.36-1.07c-.14-.436.09-.906.53-1.05.44-.147.91.09 1.05.522l.36 1.072L8.2 5.03l-.36-1.07c-.14-.43.09-.9.526-1.05.435-.14.906.09 1.05.528l.36 1.08 1.037-.34c.434-.146.904.09 1.05.52.145.436-.09.906-.523 1.05l-1.038.35.69 2.057 1.034-.344c.435-.14.905.09 1.05.53.146.44-.09.91-.52 1.05zm2.78-3.57C13.68.304 11.298-.98 5.8.67.304 2.32-.98 4.7.67 10.2c1.65 5.497 4.03 6.78 9.53 5.13 5.497-1.65 6.78-4.03 5.13-9.53z"/></g></svg></a>
-      </p>
-    </div>
-  </footer>
+      <a name="services"></a>
+      <div class="content-section-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Random Quote Machine</h2>
+              <p class="lead">User can click a button to show a new random quote. The user can tweet out the quote shown. Built using Bootstrap, HTML, CSS, JavaScript, jQuery, and Twitter API. <br>The project can be viewed live <a href="https://codepen.io/thomasvaeth/full/epmrEm/">here</a>.</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+              <img class="img-responsive" src="https://raw.githubusercontent.com/thomasvaeth/freecodecamp/master/screenshots/random-desktop.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-section-b">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Local Weather</h2>
+              <p class="lead">User will be greeted from Seattle. The background picture will be similar to the current weather. The user can view the temperature. Built using Bootstrap, HTML, CSS, JavaScript, jQuery, and OpenWeaterMap API. <br>The project can be viewed live <a href="https://codepen.io/thomasvaeth/full/avzaBd/">here</a>.</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+              <img class="img-responsive" src="https://raw.githubusercontent.com/thomasvaeth/freecodecamp/master/screenshots/local-desktop.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-section-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Pomodoro Clock</h2>
+              <p class="lead">User will be able to set a pomodoro clock to whatever task and break time needed. Built using Bootstrap, HTML, CSS, JavaScript, and jQuery. <br>The project can be viewed live <a href="https://codepen.io/thomasvaeth/full/QjwPgz/">here</a>.</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+              <img class="img-responsive" src="https://raw.githubusercontent.com/thomasvaeth/freecodecamp/master/screenshots/pomodoro-desktop.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-section-b">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Twitch.tv JSON API</h2>
+              <p class="lead">User will be shown a selected group of Twitch streamers. The remote is searchable and will show the streamers that are online and offline. Built using HTML, CSS, JavaScript, jQuery, and Twitch.tv API. <br>The project can be viewed live <a href="https://codepen.io/thomasvaeth/full/EVyabe/">here</a>.</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+              <img class="img-responsive" src="https://raw.githubusercontent.com/thomasvaeth/freecodecamp/master/screenshots/twitch-desktop.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a name="contact"></a>
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h2>Connect to Thomas:</h2>
+            </div>
+            <div class="col-lg-6">
+              <ul class="list-inline banner-social-buttons">
+                <li><a href="https://twitter.com/thomasvaeth" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a></li>
+                <li><a href="https://github.com/thomasvaeth" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a></li>
+                <li><a href="https://www.linkedin.com/pub/thomas-vaeth/31/66/413" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-inline">
+                <li><a href="#">Home</a></li>
+                <li class="footer-menu-divider">&sdot;</li>
+                <li><a href="#about">About</a></li>
+                <li class="footer-menu-divider">&sdot;</li>
+                <li><a href="#services">Services</a></li>
+                <li class="footer-menu-divider">&sdot;</li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <p class="copyright text-muted small">Copyright &copy; Thomas Vaeth 2015. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 </body>
   </html>
